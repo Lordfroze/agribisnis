@@ -11,6 +11,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">Manajemen Agribisnis</a>
+            <
         </div>
     </nav>
     <div class="container mt-4">

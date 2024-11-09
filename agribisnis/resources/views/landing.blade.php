@@ -99,7 +99,7 @@
     <!-- Navbar -->
     <navbar class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a href="{{ url('/') }}" class="navbar-brand"><img src="/images/logo.png" alt=""></a>
+            <a href="{{ url('/') }}" class="navbar-brand"><img src="{{ asset('images/logo.png') }}" alt="Deskripsi Gambar"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navBarContent" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -262,7 +262,7 @@
                 </div>
                 <!--gambar pertama-->
                 <div class="col-12 col-md-6">
-                    <div class=" vh-100 cover" style="background-image: url('{{ asset('images/banner3.jpg') }}');"></div>
+                    <div class=" vh-100 cover" style="background-image: url( '{{asset('images/banner3.jpg')}}' );"></div>
                 </div>
                 <!-- gambar kedua -->
                 <div class="col-12 col-md-6">

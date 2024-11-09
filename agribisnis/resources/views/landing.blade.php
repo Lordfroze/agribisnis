@@ -99,7 +99,7 @@
     <!-- Navbar -->
     <navbar class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a href="{{ url('landing') }}" class="navbar-brand"><img src="/images/logo.png" alt=""></a>
+            <a href="{{ url('/') }}" class="navbar-brand"><img src="/images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navBarContent" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -110,7 +110,7 @@
                         <a href="#" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="#services" class="nav-link">Service</a>
+                        <a href="#services" class="nav-link">Layanan</a>
                     </li>
                     <li class="nav-item ">
                         <a href="#product" class="nav-link">Product</a>
@@ -132,7 +132,7 @@
             <h1 class="display-3" style="color:aliceblue; ">Solusi Terbaik Bisnismu</h1>
             <p class="lead" style="font-weight: bold;color:#fff;">Menunjang Kemajuan Dunia Agribisnis menggunakan teknologi.</p>
             <a href="#" class="btn button-primer btn-lg" role="button">Go To Dashboard</a>
-            <a href="#services" class="btn btn-secondary btn-lg" role="button">Service</a>
+            <a href="#services" class="btn btn-secondary btn-lg" role="button">Layanan</a>
         </div>
     </header>
 

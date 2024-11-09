@@ -8,7 +8,6 @@
     <!-- bootstrap css -->
     <!-- Bootstrap v4.4.1 (https://getbootstrap.com/) -->
     <!-- <link rel="stylesheet" href="css/bootstrap_css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="css/bootstrap_css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ asset('css/bootstrap_css/bootstrap.min.css') }}">
 
     <style>

@@ -21,7 +21,7 @@
         }
 
         .background-header {
-            background-image: url("images/banner2.jpg");
+            background-image: url( '{{ asset("images/header.jpg") }}');
             background-color: #fafbfc;
             height: 400px;
             background-position: center;
@@ -129,11 +129,10 @@
     <!-- header -->
     <header class="jumbotron jumbotron-fluid background-header">
         <div class="container-fluid text-center">
-            <h1 class="display-3" style="color:aliceblue; ">Solusi Terbaik Belajarmu</h1>
-            <p class="lead" style="font-weight: bold;color:#fff;">Kami menyediakan banyak modul yang kamu butuhkan untuk
-                belajar pemrograman, dari tingkat dasar hingga mahir.</p>
-            <a href="#" class="btn button-primer btn-lg" role="button">Gabung Sekarang</a>
-            <a href="#" class="btn btn-secondary btn-lg" role="button">Pelajari dulu</a>
+            <h1 class="display-3" style="color:aliceblue; ">Solusi Terbaik Bisnismu</h1>
+            <p class="lead" style="font-weight: bold;color:#fff;">Menunjang Kemajuan Dunia Agribisnis menggunakan teknologi.</p>
+            <a href="#" class="btn button-primer btn-lg" role="button">Go To Dashboard</a>
+            <a href="#services" class="btn btn-secondary btn-lg" role="button">Service</a>
         </div>
     </header>
 
@@ -141,7 +140,7 @@
     <section id="services" class="container-fluid service-style">
         <div class="row text-center">
             <div class="col-12 pb-4 ">
-                <h2 class="display-4" style="margin-top: 4rem!important ;">Mengapa memilih kami?</h2>
+                <h2 class="display-4" style="margin-top: 4rem!important ;">Silahkan Pilih Layanan</h2>
                 <!-- margin-top untuk mengatur fokus-->
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
@@ -181,7 +180,7 @@
             </div>
 
             <div class="col-12 pt-3 mb-5">
-                <a href="" class="btn text-white bg-red btn-lg" target="_blank" role="button">Service Lainnya</a>
+                <a href="" class="btn text-white bg-red btn-lg" target="_blank" role="button">Layanan Lainnya</a>
             </div>
 
         </div>

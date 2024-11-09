@@ -139,8 +139,8 @@
     <!-- service -->
     <section id="services" class="container-fluid service-style">
         <div class="row text-center">
-            <div class="col-12 pb-4 ">
-                <h2 class="display-4" style="margin-top: 4rem!important ;">Silahkan Pilih Layanan</h2>
+            <div class="col-12 pb-4 container-xxl">
+                <h2 class="display-4" style="margin-top: 4rem!important ;">Pilih Layanan</h2>
                 <!-- margin-top untuk mengatur fokus-->
             </div>
             <div class="col-12 col-sm-6 col-lg-3">

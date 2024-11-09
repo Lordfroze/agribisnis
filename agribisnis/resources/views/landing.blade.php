@@ -93,6 +93,123 @@
         .cover {
             background: no-repeat center/cover;
         }
+
+/* STYLE UNTUK TAMPILAN HP */
+        /* Tambahkan media query untuk layar di bawah 377px */
+@media (max-width: 377px) {
+    /* Navbar */
+    .navbar-brand img {
+        width: 80px; /* Perkecil ukuran logo */
+    }
+
+    /* Jumbotron */
+    .jumbotron .display-3 {
+        font-size: 1.5rem; /* Perkecil ukuran font heading */
+    }
+    .jumbotron .lead {
+        font-size: 1rem;
+    }
+    
+    /* Service Section */
+    #services h2.display-4 {
+        font-size: 1.8rem;
+    }
+    #services h3 {
+        font-size: 1.2rem;
+    }
+    #services p {
+        font-size: 0.9rem;
+        padding: 0 10px; /* Tambahkan padding untuk membatasi teks */
+    }
+
+    /* Product Section */
+    #product h2.display-4 {
+        font-size: 1.8rem;
+    }
+    #product .card-title {
+        font-size: 1.1rem;
+    }
+    #product .card-text {
+        font-size: 0.9rem;
+    }
+
+    /* About Section */
+    #about h2.display-4 {
+        font-size: 1.8rem;
+    }
+    #about h3 {
+        font-size: 1.3rem;
+    }
+    #about p {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    /* Contact Section */
+    #contact h2.display-4 {
+        font-size: 1.8rem;
+    }
+    #contact .lead {
+        font-size: 1rem;
+    }
+
+    /* Footer */
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Memastikan halaman tidak bergeser ke kanan */
+html, body {
+    overflow-x: hidden; /* Mencegah pergeseran horizontal */
+}
+
+/* Atur ulang margin dan padding */
+.container-fluid, .container, .row, .col-12, .col-sm-6, .col-md-4, .col-lg-3 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box; /* Menghindari elemen melampaui lebar viewport */
+}
+
+/* Atur elemen-elemen besar */
+.jumbotron {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card {
+    margin: 0 auto; /* Pastikan card berada di tengah */
+    max-width: 100%; /* Sesuaikan ukuran card agar tidak melebihi viewport */
+}
+
+/* Aturan tambahan untuk memastikan elemen tidak melebar */
+@media (max-width: 377px) {
+    /* Sesuaikan tombol agar tidak melampaui lebar viewport */
+    .btn {
+        max-width: 100%;
+        white-space: normal; /* Membuat teks tombol bisa wrap ke baris berikutnya */
+    }
+
+    /* Pastikan semua bagian gambar diatur dengan baik */
+    .card-img-top {
+        width: 100%; /* Pastikan gambar produk tidak melampaui card */
+        height: auto;
+    }
+
+    /* Atur ukuran font dan margin pada bagian teks */
+    h1, h2, h3, .display-3, .display-4, .lead {
+        font-size: smaller;
+    }
+}
+
     </style>
 </head>
 

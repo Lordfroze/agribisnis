@@ -305,7 +305,7 @@ html, body {
     </section>
 
     <!-- product -->
-    <section id="product" class="container">
+    <section id="product" class="container-fluid py-4 px-4">
         <div class="row text-center">
             <div class="col-12 pb-4">
                 <h2 class="display-4 text-center mb-5" style="margin-top: 4rem!important ;">Produk Kami</h2>

@@ -10,207 +10,8 @@
     <!-- bootstrap css -->
     <!-- Bootstrap v4.4.1 (https://getbootstrap.com/) -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap_css/bootstrap.min.css') }}">    
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-
-    <style>
-        body {
-            padding-top: 56px;
-        }
-
-        .jumbotron {
-            background-color: cadetblue;
-        }
-
-        .background-header {
-            background-image: url( '{{ asset("images/header.jpg") }}');
-            background-color: #fafbfc;
-            height: 400px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-        }
-
-        .button-primer {
-            background-color: #00bd8e;
-            border-color: #0b9b6b;
-            color: #fff;
-            text-shadow: 0px 0px;
-        }
-
-        .button-primer:hover {
-            background-color: #038c6a;
-            color: #fff;
-            text-shadow: 0px 0px;
-        }
-
-        .service-style {
-            margin-top: 15px;
-            background-color: #fafbfc;
-        }
-
-        .text-green {
-            color: #0b9b6b;
-        }
-
-        .bg-red {
-            background-color: #f25757;
-        }
-
-        h2:before,
-        h2:after {
-            background-color: #0b9b6b;
-            content: " ";
-            display: inline-block;
-            height: 1px;
-            position: relative;
-            vertical-align: middle;
-            width: 25%;
-        }
-
-        h2::before {
-            right: 0.5em;
-            margin-left: -50%;
-        }
-
-        h2::after {
-            left: 0.5em;
-            margin-right: -50%;
-        }
-
-        .button-sekunder {
-            background-color: transparent;
-            background-color: #dbdbdb;
-            color: #0b9b6b;
-        }
-
-        .button-sekunder:hover {
-            background-color: #0b9b6b;
-            background-color: #dbdbdb;
-            color: #fff;
-        }
-
-        .cover {
-            background: no-repeat center/cover;
-        }
-
-/* STYLE UNTUK TAMPILAN HP */
-        /* Tambahkan media query untuk layar di bawah 377px */
-@media (max-width: 377px) {
-    /* Navbar */
-    .navbar-brand img {
-        width: 80px; /* Perkecil ukuran logo */
-    }
-
-    /* Jumbotron */
-    .jumbotron .display-3 {
-        font-size: 1.5rem; /* Perkecil ukuran font heading */
-    }
-    .jumbotron .lead {
-        font-size: 1rem;
-    }
-    
-    /* Service Section */
-    #services h2.display-4 {
-        font-size: 1.8rem;
-    }
-    #services h3 {
-        font-size: 1.2rem;
-    }
-    #services p {
-        font-size: 0.9rem;
-        padding: 0 10px; /* Tambahkan padding untuk membatasi teks */
-    }
-
-    /* Product Section */
-    #product h2.display-4 {
-        font-size: 1.8rem;
-    }
-    #product .card-title {
-        font-size: 1.1rem;
-    }
-    #product .card-text {
-        font-size: 0.9rem;
-    }
-
-    /* About Section */
-    #about h2.display-4 {
-        font-size: 1.8rem;
-    }
-    #about h3 {
-        font-size: 1.3rem;
-    }
-    #about p {
-        font-size: 0.9rem;
-        padding: 0 10px;
-    }
-
-    /* Contact Section */
-    #contact h2.display-4 {
-        font-size: 1.8rem;
-    }
-    #contact .lead {
-        font-size: 1rem;
-    }
-
-    /* Footer */
-    footer p {
-        font-size: 0.9rem;
-    }
-}
-
-
-/* Memastikan halaman tidak bergeser ke kanan */
-html, body {
-    overflow-x: hidden; /* Mencegah pergeseran horizontal */
-}
-
-/* Atur ulang margin dan padding */
-.container-fluid, .container, .row, .col-12, .col-sm-6, .col-md-4, .col-lg-3 {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    box-sizing: border-box; /* Menghindari elemen melampaui lebar viewport */
-}
-
-/* Atur elemen-elemen besar */
-.jumbotron {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.navbar {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.card {
-    margin: 0 auto; /* Pastikan card berada di tengah */
-    max-width: 100%; /* Sesuaikan ukuran card agar tidak melebihi viewport */
-}
-
-/* Aturan tambahan untuk memastikan elemen tidak melebar */
-@media (max-width: 377px) {
-    /* Sesuaikan tombol agar tidak melampaui lebar viewport */
-    .btn {
-        max-width: 100%;
-        white-space: normal; /* Membuat teks tombol bisa wrap ke baris berikutnya */
-    }
-
-    /* Pastikan semua bagian gambar diatur dengan baik */
-    .card-img-top {
-        width: 100%; /* Pastikan gambar produk tidak melampaui card */
-        height: auto;
-    }
-
-    /* Atur ukuran font dan margin pada bagian teks */
-    h1, h2, h3, .display-3, .display-4, .lead {
-        font-size: smaller;
-    }
-}
-
-    </style>
 </head>
 
 <body>
@@ -234,7 +35,7 @@ html, body {
                         <a href="#product" class="nav-link">Product</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="{{ url('blog.about') }}" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item ">
                         <a href="#contact" class="nav-link">Contact</a>
@@ -266,8 +67,8 @@ html, body {
                     <i class="fas fa-circle fa-stack-2x text-green"></i>
                     <i class="fa-solid fa-list fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-green">Fasilitas Oke</h3>
-                <p>Fasilitas yang kami sediakan sangat lengkap dan nyaman</p>
+                <h3 class="mt-4 text-green">Manajemen Lahan</h3>
+                <p>Pemantauan Lahan tanam</p>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
@@ -275,8 +76,8 @@ html, body {
                     <i class="fas fa-circle fa-stack-2x text-green"></i>
                     <i class="fa-solid fa-laptop-code fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-green">Modul Lengkap</h3>
-                <p>Lebih dari 2000 modul tersedia</p>
+                <h3 class="mt-4 text-green">Referensi</h3>
+                <p>Kumpulan sumber tanaman dan perikanan</p>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
@@ -284,8 +85,8 @@ html, body {
                     <i class="fas fa-circle fa-stack-2x text-green"></i>
                     <i class="fa-solid fa-money-bill fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-green">Biaya terjangkau</h3>
-                <p>Biaya sangat terjangkau</p>
+                <h3 class="mt-4 text-green">Pengingat Waktu</h3>
+                <p>Pengingat waktu dokumen yang harus diperbarui</p>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3">
@@ -293,8 +94,8 @@ html, body {
                     <i class="fas fa-circle fa-stack-2x text-green"></i>
                     <i class="fa-solid fa-chart-line fa-stack-1x text-white"></i>
                 </span>
-                <h3 class="mt-4 text-green">Terarah</h3>
-                <p>Sistem pembelajaran terarah</p>
+                <h3 class="mt-4 text-green">Manajemen Keuangan</h3>
+                <p>Sistem pencatatan biaya</p>
             </div>
 
             <div class="col-12 pt-3 mb-5">

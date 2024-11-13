@@ -225,7 +225,7 @@
                 <a href="#" class="text-light" style="padding: 5px;"> <i class="fab fa-twitter"></i></a>
                 <a href="#" class="text-light" style="padding: 5px;"><i class="fab fa-instagram"></i></a>
             </div>
-            <p class="text-center text-secondary">Copyright &copy CodePolitan 2024</p>
+            <p class="text-center text-secondary">Copyright &copy yogatama 2024</p>
         </div>
 
     </footer>

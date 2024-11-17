@@ -18,7 +18,7 @@
     <!-- Navbar -->
     <navbar class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a href="{{ url('/') }}" class="navbar-brand"><img src="{{ asset('images/logo.png') }}" alt="Deskripsi Gambar"></a>
+            <a href="{{ url('/') }}" class="navbar-brand"><img src="{{ asset('images/logo.png') }}" class="img-fluid" alt="Deskripsi Gambar"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                 aria-controls="navBarContent" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>

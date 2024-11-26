@@ -116,9 +116,8 @@
                 <div class="card">
                     <img class="card-img-top" style="max-height:400px ;" src="images/img1.jpg" alt="Produk 1">
                     <div class="card-body" style="min-height: 250px;"> <!--agar ukuran produk sejajar-->
-                        <h4 class="card-title">Membuat Aplikasi Android berbasis lokasi dengan Android Studio</h4>
-                        <p class="card-text">Belajar membuat aplikasi android (Kotlin) berbasis lokasi dengan studi
-                            kasus aplikasi presensi digital</p>
+                        <h4 class="card-title">Nusantara Grain</h4>
+                        <p class="card-text">Beras premium hasil panen lokal dari ladang pertanian tanpa proses penambahan bahan apapun</p>
                     </div>
                     <div class="card-footer">
                         <a href="#" class="btn button-sekunder">Detail & Harga</a>
@@ -130,9 +129,8 @@
                 <div class="card">
                     <img class="card-img-top" style="max-height:400px ;" src="images/img2.jpg" alt="Produk 2">
                     <div class="card-body" style="min-height: 250px;">
-                        <h4 class="card-title">Membuat Sistem Informasi perpustakaan menggunakan laravel 6</h4>
-                        <p class="card-text">Belajara langkah demi langkah membangun sistem informasi perpustakaan
-                            dengan laravel 6</p>
+                        <h4 class="card-title">Tepung AlamiKu</h4>
+                        <p class="card-text">Tepung serbaguna yang 100% alami dan sehat.Diolah dari tangan petani lokal untuk citarasa original dan hasil maksimal</p>
                     </div>
                     <div class="card-footer">
                         <a href="#" class="btn button-sekunder">Detail & Harga</a>
@@ -144,8 +142,8 @@
                 <div class="card">
                     <img class="card-img-top" style="max-height:400px ;" src="images/img3.jpg" alt="Produk 3">
                     <div class="card-body" style="min-height: 250px;">
-                        <h4 class="card-title">Membangun website toko online berbasis CodeIgniter</h4>
-                        <p class="card-text">Belajar membangun website toko online menggunakan framework CodeIgniter</p>
+                        <h4 class="card-title">Kedelai Nusantara</h4>
+                        <p class="card-text"> Kedelai pilihan untuk kebutuhan tempe dan tahu.Telah melewati sortir untuk mendapatkan kualitas terbaik</p>
                     </div>
                     <div class="card-footer">
                         <a href="#" class="btn button-sekunder">Detail & Harga</a>
@@ -163,17 +161,12 @@
                 <!--text pertama-->
                 <div class="col-12 col-md-6">
                     <div style="padding: 15px;">
-                        <h3 class="display-5 text-center text-green mt-3 mb-3">Perjalanan Bisnis Kami</h3>
-                        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Provident
-                            atque totam blanditiis ea illo
-                            possimus incidunt repudiandae ducimus obcaecati, dolore, eius, cumque quia corrupti animi
-                            nisi.
-                            Deleniti
-                            doloremque magnam eveniet!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                            dolorem voluptatum ea debitis porro vel illum amet eligendi, voluptatem fuga voluptatibus
-                            quas
-                            sunt odit corrupti! Aliquam assumenda at fugit fugiat?</p>
+                        <h3 class="display-5 text-center text-green mt-3 mb-3"></h3>
+                        <p class="text-center">
+                        Kami adalah Tim yang memiliki sebuah inisiatif agribisnis milenial yang berfokus pada inovasi, keberlanjutan, dan pemberdayaan generasi muda untuk mengembangkan sektor pertanian modern. Berbekal semangat, teknologi, dan wawasan pasar terkini, kami hadir untuk menjembatani potensi agrikultur Indonesia dengan kebutuhan dunia yang terus berkembang.
+                        <br>
+                        Kami percaya bahwa pertanian bukan hanya masa lalu kita, tetapi juga masa depan yang cerah jika dikelola dengan kreativitas dan inovasi. Dengan bersama-sama, kita dapat membangun pertanian modern yang menjadi tulang punggung perekonomian Indonesia.
+                        </p>
                         <div class="col-12 text-center">
                             <a href="#" class="btn bg-red btn-lg text-white" target="_blank" role="button">Lihat Selengkapnya</a>
                         </div>
@@ -192,13 +185,12 @@
                     <div style="padding: 15px;">
 
                         <h3 class="display-5 text-center text-green mt-3 mb-3">
-                            Tim Kami </h3>
+                            Visi Kami </h3>
                         <p style="text-align: justify;">
-                            ini merupakan deskripsi dari tim kami
-                            ini merupakan deskripsi dari tim kami
-                            ini merupakan deskripsi dari tim kami
-                            ini merupakan deskripsi dari tim kami
-                            ini merupakan deskripsi dari tim kami
+                        Visi kami adalah menciptakan ekosistem agribisnis yang mandiri, adaptif, dan inklusif, di mana generasi muda dapat berkontribusi secara aktif dalam mengembangkan pertanian berbasis teknologi dan nilai tambah.
+                        <br>
+                        Melalui pendekatan digital, kolaborasi komunitas, dan praktik agribisnis berkelanjutan, kami menyediakan layanan mulai dari pelatihan, distribusi hasil panen, hingga penerapan teknologi cerdas di sektor pertanian.
+
                         </p>
                         <div class="col-12 pt-3 text-center">
                             <a href="" class="btn bg-red btn-lg text-white">Lihat Tim Kami</a>
@@ -212,7 +204,7 @@
     <!-- contact-->
     <section id="contact" class="container-fluid text-center" style="background-color: #e9f2eb; padding-top: 25px;">
         <h2 class="display-4 pb-4">Hubungi Kami Sekarang</h2>
-        <p class="lead pb-3">Kirim pesan untuk bergabung bersama kami.</p>
+        <p class="lead pb-3">Mari bergabung dengan kami dalam revolusi agribisnis milenial untuk menciptakan dampak yang nyata bagi generasi saat ini dan mendatang! </p>
         <a href="#" class="btn button-primer btn-lg mb-4">WhatsApp Kami</a>
     </section>
 

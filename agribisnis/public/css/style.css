@@ -109,7 +109,7 @@ padding: 0 10px; /* Tambahkan padding untuk membatasi teks */
 }
 
 /* Product Section */
-#product h2.display-4 {
+/* #product h2.display-4 {
 font-size: 1.8rem;
 }
 #product .card-title {
@@ -117,7 +117,7 @@ font-size: 1.1rem;
 }
 #product .card-text {
 font-size: 0.9rem;
-}
+} */
 
 /* About Section */
 #about h2.display-4 {
@@ -194,4 +194,20 @@ height: auto;
 h1, h2, h3, .display-3, .display-4, .lead {
 font-size: smaller;
 }
+}
+
+/* Pastikan produk sejajar */
+#product .card-body {
+    min-height: 2250px; /* Tinggi minimum agar seragam */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#product .card-text {
+    height: auto; /* Sesuaikan tinggi teks agar tidak memengaruhi layout */
+}
+
+#product .card {
+    margin: 0 auto; /* Pusatkan card */
 }

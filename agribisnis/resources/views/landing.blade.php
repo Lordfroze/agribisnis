@@ -99,59 +99,59 @@
             </div>
 
             <div class="col-12 pt-3 mb-5">
-                <a href="" class="btn text-white bg-red btn-lg" target="_blank" role="button">Layanan Lainnya</a>
+                <a href="#" class="btn text-white bg-red btn-lg" role="button">Layanan Lainnya</a>
             </div>
 
         </div>
     </section>
 
     <!-- product -->
-    <section id="product" class="container-fluid py-4 px-4">
-        <div class="row text-center">
-            <div class="col-12 pb-4">
-                <h2 class="display-4 text-center mb-5" style="margin-top: 4rem!important ;">Produk Kami</h2>
-            </div>
-            <!-- produk 1-->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img class="card-img-top" style="max-height:400px ;" src="images/img1.jpg" alt="Produk 1">
-                    <div class="card-body" style="min-height: 250px;"> <!--agar ukuran produk sejajar-->
-                        <h4 class="card-title">Nusantara Grain</h4>
-                        <p class="card-text">Beras premium hasil panen lokal dari ladang pertanian tanpa proses penambahan bahan apapun</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn button-sekunder">Detail & Harga</a>
-                    </div>
+<section id="product" class="container-fluid py-4 px-4">
+    <div class="row text-center">
+        <div class="col-12 pb-4">
+            <h2 class="display-4 text-center mb-5" style="margin-top: 4rem !important;">Produk Kami</h2>
+        </div>
+        <!-- produk 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" style="max-height: 400px;" src="images/img1.jpg" alt="Produk 1">
+                <div class="card-body" style="min-height: 250px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <h4 class="card-title">Nusantara Grain</h4>
+                    <p class="card-text">Beras premium hasil panen lokal dari ladang pertanian tanpa proses penambahan bahan apapun</p>
                 </div>
-            </div>
-            <!-- produk 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img class="card-img-top" style="max-height:400px ;" src="images/img2.jpg" alt="Produk 2">
-                    <div class="card-body" style="min-height: 250px;">
-                        <h4 class="card-title">Tepung AlamiKu</h4>
-                        <p class="card-text">Tepung serbaguna yang 100% alami dan sehat.Diolah dari tangan petani lokal untuk citarasa original dan hasil maksimal</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn button-sekunder">Detail & Harga</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Produk 3-->
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img class="card-img-top" style="max-height:400px ;" src="images/img3.jpg" alt="Produk 3">
-                    <div class="card-body" style="min-height: 250px;">
-                        <h4 class="card-title">Kedelai Nusantara</h4>
-                        <p class="card-text"> Kedelai pilihan untuk kebutuhan tempe dan tahu.Telah melewati sortir untuk mendapatkan kualitas terbaik</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn button-sekunder">Detail & Harga</a>
-                    </div>
+                <div class="card-footer">
+                    <a href="#" class="btn button-sekunder">Detail & Harga</a>
                 </div>
             </div>
         </div>
-    </section>
+        <!-- produk 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" style="max-height: 400px;" src="images/img2.jpg" alt="Produk 2">
+                <div class="card-body" style="min-height: 250px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <h4 class="card-title">Tepung AlamiKu</h4>
+                    <p class="card-text">Tepung serbaguna yang 100% alami dan sehat. Diolah dari tangan petani lokal untuk citarasa original dan hasil maksimal</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn button-sekunder">Detail & Harga</a>
+                </div>
+            </div>
+        </div>
+        <!-- produk 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" style="max-height: 400px;" src="images/img3.jpg" alt="Produk 3">
+                <div class="card-body" style="min-height: 250px; display: flex; flex-direction: column; justify-content: space-between;">
+                    <h4 class="card-title">Kedelai Nusantara</h4>
+                    <p class="card-text">Kedelai pilihan untuk kebutuhan tempe dan tahu. Telah melewati sortir untuk mendapatkan kualitas terbaik</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn button-sekunder">Detail & Harga</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- about -->
     <section id="about" class="bg-light">
@@ -168,7 +168,7 @@
                         Kami percaya bahwa pertanian bukan hanya masa lalu kita, tetapi juga masa depan yang cerah jika dikelola dengan kreativitas dan inovasi. Dengan bersama-sama, kita dapat membangun pertanian modern yang menjadi tulang punggung perekonomian Indonesia.
                         </p>
                         <div class="col-12 text-center">
-                            <a href="#" class="btn bg-red btn-lg text-white" target="_blank" role="button">Lihat Selengkapnya</a>
+                            <a href="#" class="btn bg-red btn-lg text-white" role="button">Lihat Selengkapnya</a>
                         </div>
                     </div>
                 </div>
